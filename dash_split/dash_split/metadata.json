@@ -1,0 +1,206 @@
+{
+  "src/lib/components/Split.react.js": {
+    "description": "ExampleComponent is an example component.\nIt takes a property, `label`, and\ndisplays it.\nIt renders an input with the property `value`\nwhich is editable by the user.",
+    "displayName": "Split",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "children": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "The children to render in the split"
+      },
+      "className": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The class of the container (div)"
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "The style of the container (div)"
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      },
+      "sizes": {
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "number"
+          }
+        },
+        "required": false,
+        "description": "Initial sizes of each element in percents or CSS values."
+      },
+      "minSize": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "number"
+            },
+            {
+              "name": "arrayOf",
+              "value": {
+                "name": "number"
+              }
+            }
+          ]
+        },
+        "required": false,
+        "description": "Minimum size of each element."
+      },
+      "maxSize": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "number"
+            },
+            {
+              "name": "arrayOf",
+              "value": {
+                "name": "number"
+              }
+            }
+          ]
+        },
+        "required": false,
+        "description": "Maximum size of each element."
+      },
+      "expandToMin": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Grow initial sizes to minSize"
+      },
+      "gutterSize": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Gutter size in pixels."
+      },
+      "gutterAlign": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Gutter alignment between elements."
+      },
+      "snapOffset": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "number"
+            },
+            {
+              "name": "arrayOf",
+              "value": {
+                "name": "number"
+              }
+            }
+          ]
+        },
+        "required": false,
+        "description": "Snap to minimum size offset in pixels."
+      },
+      "dragInterval": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Number of pixels to drag."
+      },
+      "direction": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "\"horizontal\"",
+              "computed": false
+            },
+            {
+              "value": "\"vertical\"",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "Direction to split: horizontal or vertical.",
+        "defaultValue": {
+          "value": "\"horizontal\"",
+          "computed": false
+        }
+      },
+      "cursor": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Cursor to display while dragging."
+      },
+      "gutter": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Called to create each gutter element"
+      },
+      "elementStyle": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Called to set the style of each element."
+      },
+      "gutterStyle": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Called to set the style of the gutter."
+      },
+      "onDrag": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Callback on drag."
+      },
+      "onDragStart": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Callback on drag start."
+      },
+      "onDragEnd": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Callback on drag end."
+      }
+    }
+  }
+}

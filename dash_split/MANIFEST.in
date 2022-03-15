@@ -1,0 +1,12 @@
+include dash_split/dash_split.min.js
+include dash_split/dash_split.min.js.map
+include dash_split/async-*.js
+include dash_split/async-*.js.map
+include dash_split/*-shared.js
+include dash_split/*-shared.js.map
+include dash_split/metadata.json
+include dash_split/package-info.json
+include dash_split/split.css
+include README.md
+include LICENSE
+include package.json
