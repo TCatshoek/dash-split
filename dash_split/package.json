@@ -1,6 +1,6 @@
 {
   "name": "dash_split",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Dash wrapper for split.js",
   "repository": {
     "type": "git",
