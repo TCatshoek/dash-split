@@ -11,7 +11,8 @@ import {default as SplitJS} from 'react-split';
  */
 export default class Split extends Component {
     render() {
-        const {id, children, ...props} = this.props;
+        // eslint-disable-next-line no-unused-vars
+        const {id, children, setProps, ...props} = this.props;
         const {direction} = {...props};
 
         return (
